@@ -21,10 +21,10 @@ A modern, feature-rich scoreboard for FiveM servers with support for ESX, QBCore
 ## 📸 Screenshots
 
 ### Fullscreen Mode
-![Fullscreen Scoreboard](https://r2.fivemanage.com/fDUKi7rgEhC1caoH2Yksm/Screenshot2025-08-17081748.png)
+![Fullscreen Scoreboard](https://r2.fivemanage.com/fDUKi7rgEhC1caoH2Yksm/Screenshot2025-08-17081742.png)
 
 ### Compact Mode
-![Compact Scoreboard](https://r2.fivemanage.com/fDUKi7rgEhC1caoH2Yksm/Screenshot2025-08-17081742.png)
+![Compact Scoreboard](https://r2.fivemanage.com/fDUKi7rgEhC1caoH2Yksm/Screenshot2025-08-17081748.png)
 
 ## 🚀 Installation
 
@@ -219,5 +219,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Made with ❤️ for the FiveM community**
+
 
 
