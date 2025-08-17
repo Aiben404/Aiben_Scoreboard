@@ -6,10 +6,6 @@ A modern, feature-rich scoreboard for FiveM servers with support for ESX, QBCore
 ![Framework](https://img.shields.io/badge/framework-ESX%20%7C%20QBCore%20%7C%20Qbox-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-yellow.svg)
 
-
-https://r2.fivemanage.com/fDUKi7rgEhC1caoH2Yksm/Screenshot2025-08-17081742.png
-https://r2.fivemanage.com/fDUKi7rgEhC1caoH2Yksm/Screenshot2025-08-17081748.png
-
 ## ✨ Features
 
 - **Multi-Framework Support**: Fully compatible with ESX, QBCore, and Qbox
@@ -21,6 +17,14 @@ https://r2.fivemanage.com/fDUKi7rgEhC1caoH2Yksm/Screenshot2025-08-17081748.png
 - **Responsive Design**: Modern UI with okok-style theming
 - **Easy Configuration**: Simple drag-and-drop installation
 - **Multi-language Support**: Built-in translation system
+
+## 📸 Screenshots
+
+### Fullscreen Mode
+![Fullscreen Scoreboard](https://r2.fivemanage.com/fDUKi7rgEhC1caoH2Yksm/Screenshot2025-08-17081748.png)
+
+### Compact Mode
+![Compact Scoreboard](https://r2.fivemanage.com/fDUKi7rgEhC1caoH2Yksm/Screenshot2025-08-17081742.png)
 
 ## 🚀 Installation
 
@@ -215,4 +219,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Made with ❤️ for the FiveM community**
+
 
