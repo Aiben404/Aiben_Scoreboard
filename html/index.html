@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Aiben Scoreboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="root" class="hidden">
+    <!-- BACKDROP -->
+    <div id="backdrop"></div>
+
+    <!-- PANEL -->
+    <div id="panel" class="panel fullscreen">
+      <div class="panel-header">
+        <div class="title">
+          <div class="brand-dot"></div>
+          <h1 id="titleText">Server Scoreboard</h1>
+        </div>
+        <div class="totals">
+          <div class="badge">
+            <div class="badge-top" id="totalOnline">0</div>
+            <div class="badge-bottom" id="totalOnlineLabel">Players Online</div>
+          </div>
+          <div class="badge">
+            <div class="badge-top" id="totalDuty">0</div>
+            <div class="badge-bottom" id="totalDutyLabel">On Duty</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-toolbar">
+        <div class="services">
+          <div class="services-title" id="servicesTitle">Services</div>
+          <div id="servicesList" class="services-list"></div>
+        </div>
+        <div class="search">
+          <input id="searchInput" type="text" placeholder="Search by name..." />
+          <button id="toggleModeBtn">Compact</button>
+          <button id="closeBtn">✕</button>
+        </div>
+      </div>
+
+      <div class="players">
+        <div class="players-head">
+          <div class="col col-name" id="thName">Name</div>
+          <div class="col col-job" id="thJob">Job</div>
+          <div class="col col-grade" id="thGrade">Rank</div>
+          <div class="col col-ping" id="thPing">Ping</div>
+          <div class="col col-duty" id="thDuty">Duty</div>
+          <div class="col col-admin" id="thAdmin">Admin</div>
+        </div>
+        <div id="playersBody" class="players-body"></div>
+      </div>
+
+      <div class="footer">
+        <span id="footerText">Aiben Scoreboard</span>
+      </div>
+    </div>
+
+    <!-- COMPACT CARD -->
+    <div id="compactCard" class="panel compact hidden">
+      <div class="compact-row">
+        <div class="brand-dot"></div>
+        <div class="compact-title" id="titleTextCompact">Server Scoreboard</div>
+        <div class="spacer"></div>
+        <button id="toggleModeBtnCompact">Fullscreen</button>
+        <button id="closeBtnCompact">✕</button>
+      </div>
+      <div class="compact-stats">
+        <div class="mini">
+          <div class="mini-top" id="totalOnlineC">0</div>
+          <div class="mini-bottom" id="totalOnlineLabelC">Players Online</div>
+        </div>
+        <div class="mini">
+          <div class="mini-top" id="totalDutyC">0</div>
+          <div class="mini-bottom" id="totalDutyLabelC">On Duty</div>
+        </div>
+      </div>
+      <div id="servicesListCompact" class="services-list compact"></div>
+      <div class="compact-footer" id="footerTextCompact">Aiben Scoreboard</div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
